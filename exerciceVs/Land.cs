@@ -3,5 +3,6 @@ public class Land : Transport  {
 	public override string Move() {
 		throw new System.Exception("Not implemented");
 	}
+	public int NbWheels { get; set; }
 
 }
